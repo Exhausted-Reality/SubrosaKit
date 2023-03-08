@@ -19,7 +19,7 @@ import PackageDescription
 // MARK: - SubrosaKit Swift Package
 
 let package = Package(
-    name: "SubrosaKit",
+    name: "Subrosa Confidential",
     platforms: [
         .iOS(.v16),
         .macOS(.v13)
