@@ -1,0 +1,11 @@
+framework module SubrosaKit {
+  umbrella header "SubrosaKit.h"
+
+  export *
+  module * { export * }
+}
+
+module SubrosaKit.Swift {
+  header "SubrosaKit-Swift.h"
+  requires objc
+}

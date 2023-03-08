@@ -1,0 +1,141 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-module-flags: -target arm64-apple-ios16.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name SubrosaKit
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import CryptoKit
+import Foundation
+@_exported import SubrosaKit
+import Swift
+import _Concurrency
+import _StringProcessing
+extension SubrosaKit.SBRKit {
+  public typealias SDKBuild = Swift.UInt16
+}
+@available(iOS 16.0, macOS 13.0, *)
+final public class SBRConfidential {
+  public init(with encryptionType: SubrosaKit.SBRConfidential.EncryptionType)
+  @objc deinit
+}
+extension SubrosaKit.SBRConfidential {
+  final public func encrypt(propertySet: SubrosaKit.SBRConfidential.EncryptionPropertySet) -> Foundation.Data?
+  final public func encrypt(propertySets: [SubrosaKit.SBRConfidential.EncryptionPropertySet]) -> [Foundation.Data]?
+  @objc final public func decrypt(propertySet: SubrosaKit.SBRConfidential.DecryptionPropertySet) -> Swift.String?
+  @objc final public func decrypt(propertySets: [SubrosaKit.SBRConfidential.DecryptionPropertySet]) -> [Swift.String]?
+}
+extension SubrosaKit.SBRConfidential {
+  final public func convertDataToString(_ data: Foundation.Data) -> Swift.String?
+  final public func convertDataToString(_ datas: [Foundation.Data]) -> [Swift.String]?
+  final public func convertStringToData(_ string: Swift.String) -> Foundation.Data?
+  final public func convertStringToData(_ strings: [Swift.String]) -> [Foundation.Data]?
+}
+extension SubrosaKit.SBRConfidential {
+  @objc final public func generateKey(with sharedSecret: SubrosaKit.SBRConfidential.SharedSecret? = nil) -> Foundation.Data?
+  @objc final public func generateKeys(with sharedSecrets: [SubrosaKit.SBRConfidential.SharedSecret]? = nil) -> [Foundation.Data]?
+  @objc final public func generateKeyPair() -> SubrosaKit.SBRConfidential.KeyPair?
+  @objc final public func generateKeyPairs(with numberOfSessions: Swift.UInt = 10) -> [SubrosaKit.SBRConfidential.KeyPair]?
+  @objc final public func generateSalt() -> Foundation.Data?
+  @objc final public func generateSalts(with numberOfSessions: Swift.UInt = 10) -> [Foundation.Data]?
+}
+@available(iOS 16.0, macOS 13.0, *)
+public protocol SBRKitSpecificationable : AnyObject {
+  static var info: SubrosaKit.SBRKitSpecificationable { get }
+  var version: SubrosaKit.SBRKit.SDKVersion { get }
+  var build: SubrosaKit.SBRKit.SDKBuild { get }
+}
+extension SubrosaKit.SBRKit {
+  public struct SDKVersion {
+    public var major: Swift.UInt16
+    public var minor: Swift.UInt16
+    public var patch: Swift.UInt16
+  }
+}
+extension SubrosaKit.SBRConfidential {
+  @objc final public class KeyPair : ObjectiveC.NSObject {
+    final public var privateKey: Foundation.Data
+    final public var publicKey: Foundation.Data?
+    public init(privateKey: Foundation.Data, publicKey: Foundation.Data? = nil)
+    @objc deinit
+  }
+}
+@_hasMissingDesignatedInitializers @available(iOS 13.0, *)
+final public class SBRKit : SubrosaKit.SBRKitSpecificationable {
+  public static let info: SubrosaKit.SBRKitSpecificationable
+  final public let version: SubrosaKit.SBRKit.SDKVersion
+  final public let build: SubrosaKit.SBRKit.SDKBuild
+  @objc deinit
+}
+extension SubrosaKit.SBRConfidential {
+  public enum HashValue {
+    case bits256
+    case bits384
+    case bits512
+    public static func == (a: SubrosaKit.SBRConfidential.HashValue, b: SubrosaKit.SBRConfidential.HashValue) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+extension SubrosaKit.SBRConfidential {
+  public enum KeySize {
+    case bits128
+    case bits192
+    case bits256
+    public static func == (a: SubrosaKit.SBRConfidential.KeySize, b: SubrosaKit.SBRConfidential.KeySize) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+extension SubrosaKit.SBRConfidential {
+  @objc final public class EncryptionPropertySet : ObjectiveC.NSObject {
+    final public var text: Swift.String
+    final public var key: Foundation.Data?
+    final public var computeType: SubrosaKit.SBRConfidential.ComputeType
+    public init(text: Swift.String, key: Foundation.Data? = nil, computeType: SubrosaKit.SBRConfidential.ComputeType = .automatic)
+    @objc deinit
+  }
+}
+extension SubrosaKit.SBRConfidential {
+  public enum EncryptionType {
+    case aes(keySize: SubrosaKit.SBRConfidential.KeySize)
+    case eddsa(hashValue: SubrosaKit.SBRConfidential.HashValue, keySize: SubrosaKit.SBRConfidential.KeySize)
+    case sha2(hashValue: SubrosaKit.SBRConfidential.HashValue)
+  }
+}
+extension SubrosaKit.SBRConfidential {
+  @objc final public class SharedSecret : ObjectiveC.NSObject {
+    final public var keyPair: SubrosaKit.SBRConfidential.KeyPair
+    final public var salt: Foundation.Data?
+    public init(keyPair: SubrosaKit.SBRConfidential.KeyPair, salt: Foundation.Data? = nil)
+    @objc deinit
+  }
+}
+extension SubrosaKit.SBRConfidential {
+  @objc final public class DecryptionPropertySet : ObjectiveC.NSObject {
+    final public var data: Foundation.Data
+    final public var key: Foundation.Data?
+    final public var computeType: SubrosaKit.SBRConfidential.ComputeType
+    public init(data: Foundation.Data, key: Foundation.Data? = nil, computeType: SubrosaKit.SBRConfidential.ComputeType = .automatic)
+    @objc deinit
+  }
+}
+extension SubrosaKit.SBRConfidential {
+  public enum ComputeType {
+    case automatic
+    case cpu
+    case gpu
+    public static func == (a: SubrosaKit.SBRConfidential.ComputeType, b: SubrosaKit.SBRConfidential.ComputeType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+}
+extension SubrosaKit.SBRConfidential.HashValue : Swift.Equatable {}
+extension SubrosaKit.SBRConfidential.HashValue : Swift.Hashable {}
+extension SubrosaKit.SBRConfidential.KeySize : Swift.Equatable {}
+extension SubrosaKit.SBRConfidential.KeySize : Swift.Hashable {}
+extension SubrosaKit.SBRConfidential.ComputeType : Swift.Equatable {}
+extension SubrosaKit.SBRConfidential.ComputeType : Swift.Hashable {}

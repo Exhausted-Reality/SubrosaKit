@@ -1,0 +1,4368 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SBRConfidential",
+        "printedName": "SBRConfidential",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SBRConfidential",
+                "printedName": "SubrosaKit.SBRConfidential",
+                "usr": "s:10SubrosaKit15SBRConfidentialC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EncryptionType",
+                "printedName": "SubrosaKit.SBRConfidential.EncryptionType",
+                "usr": "s:10SubrosaKit15SBRConfidentialC14EncryptionTypeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10SubrosaKit15SBRConfidentialC4withA2C14EncryptionTypeO_tcfc",
+            "mangledName": "$s10SubrosaKit15SBRConfidentialC4withA2C14EncryptionTypeO_tcfc",
+            "moduleName": "SubrosaKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encrypt",
+            "printedName": "encrypt(propertySet:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "EncryptionPropertySet",
+                "printedName": "SubrosaKit.SBRConfidential.EncryptionPropertySet",
+                "usr": "s:10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SubrosaKit15SBRConfidentialC7encrypt11propertySet10Foundation4DataVSgAC018EncryptionPropertyF0C_tF",
+            "mangledName": "$s10SubrosaKit15SBRConfidentialC7encrypt11propertySet10Foundation4DataVSgAC018EncryptionPropertyF0C_tF",
+            "moduleName": "SubrosaKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "encrypt",
+            "printedName": "encrypt(propertySets:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Foundation.Data]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Foundation.Data]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SubrosaKit.SBRConfidential.EncryptionPropertySet]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EncryptionPropertySet",
+                    "printedName": "SubrosaKit.SBRConfidential.EncryptionPropertySet",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SubrosaKit15SBRConfidentialC7encrypt12propertySetsSay10Foundation4DataVGSgSayAC21EncryptionPropertySetCG_tF",
+            "mangledName": "$s10SubrosaKit15SBRConfidentialC7encrypt12propertySetsSay10Foundation4DataVGSgSayAC21EncryptionPropertySetCG_tF",
+            "moduleName": "SubrosaKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decrypt",
+            "printedName": "decrypt(propertySet:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DecryptionPropertySet",
+                "printedName": "SubrosaKit.SBRConfidential.DecryptionPropertySet",
+                "usr": "s:10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SubrosaKit15SBRConfidentialC7decrypt11propertySetSSSgAC018DecryptionPropertyF0C_tF",
+            "mangledName": "$s10SubrosaKit15SBRConfidentialC7decrypt11propertySetSSSgAC018DecryptionPropertyF0C_tF",
+            "moduleName": "SubrosaKit",
+            "objc_name": "decryptWithPropertySet:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "decrypt",
+            "printedName": "decrypt(propertySets:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[SubrosaKit.SBRConfidential.DecryptionPropertySet]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DecryptionPropertySet",
+                    "printedName": "SubrosaKit.SBRConfidential.DecryptionPropertySet",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SubrosaKit15SBRConfidentialC7decrypt12propertySetsSaySSGSgSayAC21DecryptionPropertySetCG_tF",
+            "mangledName": "$s10SubrosaKit15SBRConfidentialC7decrypt12propertySetsSaySSGSgSayAC21DecryptionPropertySetCG_tF",
+            "moduleName": "SubrosaKit",
+            "objc_name": "decryptWithPropertySets:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "convertDataToString",
+            "printedName": "convertDataToString(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SubrosaKit15SBRConfidentialC19convertDataToStringySSSg10Foundation0E0VF",
+            "mangledName": "$s10SubrosaKit15SBRConfidentialC19convertDataToStringySSSg10Foundation0E0VF",
+            "moduleName": "SubrosaKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "convertDataToString",
+            "printedName": "convertDataToString(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Foundation.Data]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SubrosaKit15SBRConfidentialC19convertDataToStringySaySSGSgSay10Foundation0E0VGF",
+            "mangledName": "$s10SubrosaKit15SBRConfidentialC19convertDataToStringySaySSGSgSay10Foundation0E0VGF",
+            "moduleName": "SubrosaKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "convertStringToData",
+            "printedName": "convertStringToData(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SubrosaKit15SBRConfidentialC19convertStringToDatay10Foundation0G0VSgSSF",
+            "mangledName": "$s10SubrosaKit15SBRConfidentialC19convertStringToDatay10Foundation0G0VSgSSF",
+            "moduleName": "SubrosaKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "convertStringToData",
+            "printedName": "convertStringToData(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Foundation.Data]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Foundation.Data]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SubrosaKit15SBRConfidentialC19convertStringToDataySay10Foundation0G0VGSgSaySSGF",
+            "mangledName": "$s10SubrosaKit15SBRConfidentialC19convertStringToDataySay10Foundation0G0VGSgSaySSGF",
+            "moduleName": "SubrosaKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "generateKey",
+            "printedName": "generateKey(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SubrosaKit.SBRConfidential.SharedSecret?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SharedSecret",
+                    "printedName": "SubrosaKit.SBRConfidential.SharedSecret",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC12SharedSecretC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SubrosaKit15SBRConfidentialC11generateKey4with10Foundation4DataVSgAC12SharedSecretCSg_tF",
+            "mangledName": "$s10SubrosaKit15SBRConfidentialC11generateKey4with10Foundation4DataVSgAC12SharedSecretCSg_tF",
+            "moduleName": "SubrosaKit",
+            "objc_name": "generateKeyWith:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "generateKeys",
+            "printedName": "generateKeys(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Foundation.Data]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Foundation.Data]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[SubrosaKit.SBRConfidential.SharedSecret]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SubrosaKit.SBRConfidential.SharedSecret]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SharedSecret",
+                        "printedName": "SubrosaKit.SBRConfidential.SharedSecret",
+                        "usr": "s:10SubrosaKit15SBRConfidentialC12SharedSecretC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SubrosaKit15SBRConfidentialC12generateKeys4withSay10Foundation4DataVGSgSayAC12SharedSecretCGSg_tF",
+            "mangledName": "$s10SubrosaKit15SBRConfidentialC12generateKeys4withSay10Foundation4DataVGSgSayAC12SharedSecretCGSg_tF",
+            "moduleName": "SubrosaKit",
+            "objc_name": "generateKeysWith:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "generateKeyPair",
+            "printedName": "generateKeyPair()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "SubrosaKit.SBRConfidential.KeyPair?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyPair",
+                    "printedName": "SubrosaKit.SBRConfidential.KeyPair",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC7KeyPairC"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SubrosaKit15SBRConfidentialC15generateKeyPairAC0eF0CSgyF",
+            "mangledName": "$s10SubrosaKit15SBRConfidentialC15generateKeyPairAC0eF0CSgyF",
+            "moduleName": "SubrosaKit",
+            "objc_name": "generateKeyPair",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "generateKeyPairs",
+            "printedName": "generateKeyPairs(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[SubrosaKit.SBRConfidential.KeyPair]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[SubrosaKit.SBRConfidential.KeyPair]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyPair",
+                        "printedName": "SubrosaKit.SBRConfidential.KeyPair",
+                        "usr": "s:10SubrosaKit15SBRConfidentialC7KeyPairC"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SubrosaKit15SBRConfidentialC16generateKeyPairs4withSayAC0E4PairCGSgSu_tF",
+            "mangledName": "$s10SubrosaKit15SBRConfidentialC16generateKeyPairs4withSayAC0E4PairCGSgSu_tF",
+            "moduleName": "SubrosaKit",
+            "objc_name": "generateKeyPairsWith:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "generateSalt",
+            "printedName": "generateSalt()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SubrosaKit15SBRConfidentialC12generateSalt10Foundation4DataVSgyF",
+            "mangledName": "$s10SubrosaKit15SBRConfidentialC12generateSalt10Foundation4DataVSgyF",
+            "moduleName": "SubrosaKit",
+            "objc_name": "generateSalt",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "generateSalts",
+            "printedName": "generateSalts(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Foundation.Data]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Foundation.Data]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "hasDefaultArg": true,
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10SubrosaKit15SBRConfidentialC13generateSalts4withSay10Foundation4DataVGSgSu_tF",
+            "mangledName": "$s10SubrosaKit15SBRConfidentialC13generateSalts4withSay10Foundation4DataVGSgSu_tF",
+            "moduleName": "SubrosaKit",
+            "objc_name": "generateSaltsWith:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "KeyPair",
+            "printedName": "KeyPair",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "privateKey",
+                "printedName": "privateKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10SubrosaKit15SBRConfidentialC7KeyPairC07privateD010Foundation4DataVvp",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC7KeyPairC07privateD010Foundation4DataVvp",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "Final",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC7KeyPairC07privateD010Foundation4DataVvg",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC7KeyPairC07privateD010Foundation4DataVvg",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC7KeyPairC07privateD010Foundation4DataVvs",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC7KeyPairC07privateD010Foundation4DataVvs",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC7KeyPairC07privateD010Foundation4DataVvM",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC7KeyPairC07privateD010Foundation4DataVvM",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "publicKey",
+                "printedName": "publicKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10SubrosaKit15SBRConfidentialC7KeyPairC06publicD010Foundation4DataVSgvp",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC7KeyPairC06publicD010Foundation4DataVSgvp",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Final",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Data?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC7KeyPairC06publicD010Foundation4DataVSgvg",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC7KeyPairC06publicD010Foundation4DataVSgvg",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Data?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC7KeyPairC06publicD010Foundation4DataVSgvs",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC7KeyPairC06publicD010Foundation4DataVSgvs",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC7KeyPairC06publicD010Foundation4DataVSgvM",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC7KeyPairC06publicD010Foundation4DataVSgvM",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(privateKey:publicKey:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyPair",
+                    "printedName": "SubrosaKit.SBRConfidential.KeyPair",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC7KeyPairC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10SubrosaKit15SBRConfidentialC7KeyPairC07privateD006publicD0AE10Foundation4DataV_AJSgtcfc",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC7KeyPairC07privateD006publicD0AE10Foundation4DataV_AJSgtcfc",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyPair",
+                    "printedName": "SubrosaKit.SBRConfidential.KeyPair",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC7KeyPairC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10SubrosaKit15SBRConfidentialC7KeyPairCAEycfc",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC7KeyPairCAEycfc",
+                "moduleName": "SubrosaKit",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:10SubrosaKit15SBRConfidentialC7KeyPairC",
+            "mangledName": "$s10SubrosaKit15SBRConfidentialC7KeyPairC",
+            "moduleName": "SubrosaKit",
+            "declAttributes": [
+              "AccessControl",
+              "Final",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "superclassUsr": "c:objc(cs)NSObject",
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "HashValue",
+            "printedName": "HashValue",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "bits256",
+                "printedName": "bits256",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SubrosaKit.SBRConfidential.HashValue.Type) -> SubrosaKit.SBRConfidential.HashValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HashValue",
+                        "printedName": "SubrosaKit.SBRConfidential.HashValue",
+                        "usr": "s:10SubrosaKit15SBRConfidentialC9HashValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SubrosaKit.SBRConfidential.HashValue.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "HashValue",
+                            "printedName": "SubrosaKit.SBRConfidential.HashValue",
+                            "usr": "s:10SubrosaKit15SBRConfidentialC9HashValueO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10SubrosaKit15SBRConfidentialC9HashValueO7bits256yA2EmF",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC9HashValueO7bits256yA2EmF",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "bits384",
+                "printedName": "bits384",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SubrosaKit.SBRConfidential.HashValue.Type) -> SubrosaKit.SBRConfidential.HashValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HashValue",
+                        "printedName": "SubrosaKit.SBRConfidential.HashValue",
+                        "usr": "s:10SubrosaKit15SBRConfidentialC9HashValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SubrosaKit.SBRConfidential.HashValue.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "HashValue",
+                            "printedName": "SubrosaKit.SBRConfidential.HashValue",
+                            "usr": "s:10SubrosaKit15SBRConfidentialC9HashValueO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10SubrosaKit15SBRConfidentialC9HashValueO7bits384yA2EmF",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC9HashValueO7bits384yA2EmF",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "bits512",
+                "printedName": "bits512",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SubrosaKit.SBRConfidential.HashValue.Type) -> SubrosaKit.SBRConfidential.HashValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HashValue",
+                        "printedName": "SubrosaKit.SBRConfidential.HashValue",
+                        "usr": "s:10SubrosaKit15SBRConfidentialC9HashValueO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SubrosaKit.SBRConfidential.HashValue.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "HashValue",
+                            "printedName": "SubrosaKit.SBRConfidential.HashValue",
+                            "usr": "s:10SubrosaKit15SBRConfidentialC9HashValueO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10SubrosaKit15SBRConfidentialC9HashValueO7bits512yA2EmF",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC9HashValueO7bits512yA2EmF",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HashValue",
+                    "printedName": "SubrosaKit.SBRConfidential.HashValue",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC9HashValueO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HashValue",
+                    "printedName": "SubrosaKit.SBRConfidential.HashValue",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC9HashValueO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10SubrosaKit15SBRConfidentialC9HashValueO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC9HashValueO2eeoiySbAE_AEtFZ",
+                "moduleName": "SubrosaKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10SubrosaKit15SBRConfidentialC9HashValueO04hashE0Sivp",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC9HashValueO04hashE0Sivp",
+                "moduleName": "SubrosaKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC9HashValueO04hashE0Sivg",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC9HashValueO04hashE0Sivg",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10SubrosaKit15SBRConfidentialC9HashValueO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC9HashValueO4hash4intoys6HasherVz_tF",
+                "moduleName": "SubrosaKit",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:10SubrosaKit15SBRConfidentialC9HashValueO",
+            "mangledName": "$s10SubrosaKit15SBRConfidentialC9HashValueO",
+            "moduleName": "SubrosaKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "KeySize",
+            "printedName": "KeySize",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "bits128",
+                "printedName": "bits128",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SubrosaKit.SBRConfidential.KeySize.Type) -> SubrosaKit.SBRConfidential.KeySize",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeySize",
+                        "printedName": "SubrosaKit.SBRConfidential.KeySize",
+                        "usr": "s:10SubrosaKit15SBRConfidentialC7KeySizeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SubrosaKit.SBRConfidential.KeySize.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KeySize",
+                            "printedName": "SubrosaKit.SBRConfidential.KeySize",
+                            "usr": "s:10SubrosaKit15SBRConfidentialC7KeySizeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10SubrosaKit15SBRConfidentialC7KeySizeO7bits128yA2EmF",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC7KeySizeO7bits128yA2EmF",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "bits192",
+                "printedName": "bits192",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SubrosaKit.SBRConfidential.KeySize.Type) -> SubrosaKit.SBRConfidential.KeySize",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeySize",
+                        "printedName": "SubrosaKit.SBRConfidential.KeySize",
+                        "usr": "s:10SubrosaKit15SBRConfidentialC7KeySizeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SubrosaKit.SBRConfidential.KeySize.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KeySize",
+                            "printedName": "SubrosaKit.SBRConfidential.KeySize",
+                            "usr": "s:10SubrosaKit15SBRConfidentialC7KeySizeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10SubrosaKit15SBRConfidentialC7KeySizeO7bits192yA2EmF",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC7KeySizeO7bits192yA2EmF",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "bits256",
+                "printedName": "bits256",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SubrosaKit.SBRConfidential.KeySize.Type) -> SubrosaKit.SBRConfidential.KeySize",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeySize",
+                        "printedName": "SubrosaKit.SBRConfidential.KeySize",
+                        "usr": "s:10SubrosaKit15SBRConfidentialC7KeySizeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SubrosaKit.SBRConfidential.KeySize.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "KeySize",
+                            "printedName": "SubrosaKit.SBRConfidential.KeySize",
+                            "usr": "s:10SubrosaKit15SBRConfidentialC7KeySizeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10SubrosaKit15SBRConfidentialC7KeySizeO7bits256yA2EmF",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC7KeySizeO7bits256yA2EmF",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeySize",
+                    "printedName": "SubrosaKit.SBRConfidential.KeySize",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC7KeySizeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeySize",
+                    "printedName": "SubrosaKit.SBRConfidential.KeySize",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC7KeySizeO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10SubrosaKit15SBRConfidentialC7KeySizeO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC7KeySizeO2eeoiySbAE_AEtFZ",
+                "moduleName": "SubrosaKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10SubrosaKit15SBRConfidentialC7KeySizeO9hashValueSivp",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC7KeySizeO9hashValueSivp",
+                "moduleName": "SubrosaKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC7KeySizeO9hashValueSivg",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC7KeySizeO9hashValueSivg",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10SubrosaKit15SBRConfidentialC7KeySizeO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC7KeySizeO4hash4intoys6HasherVz_tF",
+                "moduleName": "SubrosaKit",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:10SubrosaKit15SBRConfidentialC7KeySizeO",
+            "mangledName": "$s10SubrosaKit15SBRConfidentialC7KeySizeO",
+            "moduleName": "SubrosaKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "EncryptionPropertySet",
+            "printedName": "EncryptionPropertySet",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "text",
+                "printedName": "text",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC4textSSvp",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC4textSSvp",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "Final",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC4textSSvg",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC4textSSvg",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC4textSSvs",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC4textSSvs",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC4textSSvM",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC4textSSvM",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "key",
+                "printedName": "key",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC3key10Foundation4DataVSgvp",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC3key10Foundation4DataVSgvp",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Final",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Data?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC3key10Foundation4DataVSgvg",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC3key10Foundation4DataVSgvg",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Data?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC3key10Foundation4DataVSgvs",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC3key10Foundation4DataVSgvs",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC3key10Foundation4DataVSgvM",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC3key10Foundation4DataVSgvM",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "computeType",
+                "printedName": "computeType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ComputeType",
+                    "printedName": "SubrosaKit.SBRConfidential.ComputeType",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC11ComputeTypeO"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC11computeTypeAC07ComputeH0Ovp",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC11computeTypeAC07ComputeH0Ovp",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "Final",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ComputeType",
+                        "printedName": "SubrosaKit.SBRConfidential.ComputeType",
+                        "usr": "s:10SubrosaKit15SBRConfidentialC11ComputeTypeO"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC11computeTypeAC07ComputeH0Ovg",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC11computeTypeAC07ComputeH0Ovg",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ComputeType",
+                        "printedName": "SubrosaKit.SBRConfidential.ComputeType",
+                        "usr": "s:10SubrosaKit15SBRConfidentialC11ComputeTypeO"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC11computeTypeAC07ComputeH0Ovs",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC11computeTypeAC07ComputeH0Ovs",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC11computeTypeAC07ComputeH0OvM",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC11computeTypeAC07ComputeH0OvM",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(text:key:computeType:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EncryptionPropertySet",
+                    "printedName": "SubrosaKit.SBRConfidential.EncryptionPropertySet",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ComputeType",
+                    "printedName": "SubrosaKit.SBRConfidential.ComputeType",
+                    "hasDefaultArg": true,
+                    "usr": "s:10SubrosaKit15SBRConfidentialC11ComputeTypeO"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC4text3key11computeTypeAESS_10Foundation4DataVSgAC07ComputeJ0Otcfc",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC4text3key11computeTypeAESS_10Foundation4DataVSgAC07ComputeJ0Otcfc",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EncryptionPropertySet",
+                    "printedName": "SubrosaKit.SBRConfidential.EncryptionPropertySet",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10SubrosaKit15SBRConfidentialC21EncryptionPropertySetCAEycfc",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC21EncryptionPropertySetCAEycfc",
+                "moduleName": "SubrosaKit",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC",
+            "mangledName": "$s10SubrosaKit15SBRConfidentialC21EncryptionPropertySetC",
+            "moduleName": "SubrosaKit",
+            "declAttributes": [
+              "AccessControl",
+              "Final",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "superclassUsr": "c:objc(cs)NSObject",
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "EncryptionType",
+            "printedName": "EncryptionType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "aes",
+                "printedName": "aes",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SubrosaKit.SBRConfidential.EncryptionType.Type) -> (SubrosaKit.SBRConfidential.KeySize) -> SubrosaKit.SBRConfidential.EncryptionType",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(SubrosaKit.SBRConfidential.KeySize) -> SubrosaKit.SBRConfidential.EncryptionType",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EncryptionType",
+                            "printedName": "SubrosaKit.SBRConfidential.EncryptionType",
+                            "usr": "s:10SubrosaKit15SBRConfidentialC14EncryptionTypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(keySize: SubrosaKit.SBRConfidential.KeySize)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "KeySize",
+                                "printedName": "SubrosaKit.SBRConfidential.KeySize",
+                                "usr": "s:10SubrosaKit15SBRConfidentialC7KeySizeO"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SubrosaKit.SBRConfidential.EncryptionType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EncryptionType",
+                            "printedName": "SubrosaKit.SBRConfidential.EncryptionType",
+                            "usr": "s:10SubrosaKit15SBRConfidentialC14EncryptionTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10SubrosaKit15SBRConfidentialC14EncryptionTypeO3aesyAeC7KeySizeO_tcAEmF",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC14EncryptionTypeO3aesyAeC7KeySizeO_tcAEmF",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "eddsa",
+                "printedName": "eddsa",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SubrosaKit.SBRConfidential.EncryptionType.Type) -> (SubrosaKit.SBRConfidential.HashValue, SubrosaKit.SBRConfidential.KeySize) -> SubrosaKit.SBRConfidential.EncryptionType",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(SubrosaKit.SBRConfidential.HashValue, SubrosaKit.SBRConfidential.KeySize) -> SubrosaKit.SBRConfidential.EncryptionType",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EncryptionType",
+                            "printedName": "SubrosaKit.SBRConfidential.EncryptionType",
+                            "usr": "s:10SubrosaKit15SBRConfidentialC14EncryptionTypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(hashValue: SubrosaKit.SBRConfidential.HashValue, keySize: SubrosaKit.SBRConfidential.KeySize)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "HashValue",
+                                "printedName": "SubrosaKit.SBRConfidential.HashValue",
+                                "usr": "s:10SubrosaKit15SBRConfidentialC9HashValueO"
+                              },
+                              {
+                                "kind": "TypeNominal",
+                                "name": "KeySize",
+                                "printedName": "SubrosaKit.SBRConfidential.KeySize",
+                                "usr": "s:10SubrosaKit15SBRConfidentialC7KeySizeO"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SubrosaKit.SBRConfidential.EncryptionType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EncryptionType",
+                            "printedName": "SubrosaKit.SBRConfidential.EncryptionType",
+                            "usr": "s:10SubrosaKit15SBRConfidentialC14EncryptionTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10SubrosaKit15SBRConfidentialC14EncryptionTypeO5eddsayAeC9HashValueO_AC7KeySizeOtcAEmF",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC14EncryptionTypeO5eddsayAeC9HashValueO_AC7KeySizeOtcAEmF",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "sha2",
+                "printedName": "sha2",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SubrosaKit.SBRConfidential.EncryptionType.Type) -> (SubrosaKit.SBRConfidential.HashValue) -> SubrosaKit.SBRConfidential.EncryptionType",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(SubrosaKit.SBRConfidential.HashValue) -> SubrosaKit.SBRConfidential.EncryptionType",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EncryptionType",
+                            "printedName": "SubrosaKit.SBRConfidential.EncryptionType",
+                            "usr": "s:10SubrosaKit15SBRConfidentialC14EncryptionTypeO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Tuple",
+                            "printedName": "(hashValue: SubrosaKit.SBRConfidential.HashValue)",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "HashValue",
+                                "printedName": "SubrosaKit.SBRConfidential.HashValue",
+                                "usr": "s:10SubrosaKit15SBRConfidentialC9HashValueO"
+                              }
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SubrosaKit.SBRConfidential.EncryptionType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "EncryptionType",
+                            "printedName": "SubrosaKit.SBRConfidential.EncryptionType",
+                            "usr": "s:10SubrosaKit15SBRConfidentialC14EncryptionTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10SubrosaKit15SBRConfidentialC14EncryptionTypeO4sha2yAeC9HashValueO_tcAEmF",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC14EncryptionTypeO4sha2yAeC9HashValueO_tcAEmF",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:10SubrosaKit15SBRConfidentialC14EncryptionTypeO",
+            "mangledName": "$s10SubrosaKit15SBRConfidentialC14EncryptionTypeO",
+            "moduleName": "SubrosaKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "SharedSecret",
+            "printedName": "SharedSecret",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "keyPair",
+                "printedName": "keyPair",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyPair",
+                    "printedName": "SubrosaKit.SBRConfidential.KeyPair",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC7KeyPairC"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10SubrosaKit15SBRConfidentialC12SharedSecretC7keyPairAC03KeyG0Cvp",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC12SharedSecretC7keyPairAC03KeyG0Cvp",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "Final",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyPair",
+                        "printedName": "SubrosaKit.SBRConfidential.KeyPair",
+                        "usr": "s:10SubrosaKit15SBRConfidentialC7KeyPairC"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC12SharedSecretC7keyPairAC03KeyG0Cvg",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC12SharedSecretC7keyPairAC03KeyG0Cvg",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "KeyPair",
+                        "printedName": "SubrosaKit.SBRConfidential.KeyPair",
+                        "usr": "s:10SubrosaKit15SBRConfidentialC7KeyPairC"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC12SharedSecretC7keyPairAC03KeyG0Cvs",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC12SharedSecretC7keyPairAC03KeyG0Cvs",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC12SharedSecretC7keyPairAC03KeyG0CvM",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC12SharedSecretC7keyPairAC03KeyG0CvM",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "salt",
+                "printedName": "salt",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10SubrosaKit15SBRConfidentialC12SharedSecretC4salt10Foundation4DataVSgvp",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC12SharedSecretC4salt10Foundation4DataVSgvp",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Final",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Data?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC12SharedSecretC4salt10Foundation4DataVSgvg",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC12SharedSecretC4salt10Foundation4DataVSgvg",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Data?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC12SharedSecretC4salt10Foundation4DataVSgvs",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC12SharedSecretC4salt10Foundation4DataVSgvs",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC12SharedSecretC4salt10Foundation4DataVSgvM",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC12SharedSecretC4salt10Foundation4DataVSgvM",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(keyPair:salt:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SharedSecret",
+                    "printedName": "SubrosaKit.SBRConfidential.SharedSecret",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC12SharedSecretC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "KeyPair",
+                    "printedName": "SubrosaKit.SBRConfidential.KeyPair",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC7KeyPairC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10SubrosaKit15SBRConfidentialC12SharedSecretC7keyPair4saltAeC03KeyG0C_10Foundation4DataVSgtcfc",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC12SharedSecretC7keyPair4saltAeC03KeyG0C_10Foundation4DataVSgtcfc",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SharedSecret",
+                    "printedName": "SubrosaKit.SBRConfidential.SharedSecret",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC12SharedSecretC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10SubrosaKit15SBRConfidentialC12SharedSecretCAEycfc",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC12SharedSecretCAEycfc",
+                "moduleName": "SubrosaKit",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:10SubrosaKit15SBRConfidentialC12SharedSecretC",
+            "mangledName": "$s10SubrosaKit15SBRConfidentialC12SharedSecretC",
+            "moduleName": "SubrosaKit",
+            "declAttributes": [
+              "AccessControl",
+              "Final",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "superclassUsr": "c:objc(cs)NSObject",
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "DecryptionPropertySet",
+            "printedName": "DecryptionPropertySet",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "data",
+                "printedName": "data",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC4data10Foundation4DataVvp",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC4data10Foundation4DataVvp",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "Final",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC4data10Foundation4DataVvg",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC4data10Foundation4DataVvg",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC4data10Foundation4DataVvs",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC4data10Foundation4DataVvs",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC4data10Foundation4DataVvM",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC4data10Foundation4DataVvM",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "key",
+                "printedName": "key",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC3key10Foundation4DataVSgvp",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC3key10Foundation4DataVSgvp",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "HasInitialValue",
+                  "Final",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Data?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC3key10Foundation4DataVSgvg",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC3key10Foundation4DataVSgvg",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.Data?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Data",
+                            "printedName": "Foundation.Data",
+                            "usr": "s:10Foundation4DataV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC3key10Foundation4DataVSgvs",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC3key10Foundation4DataVSgvs",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC3key10Foundation4DataVSgvM",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC3key10Foundation4DataVSgvM",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "computeType",
+                "printedName": "computeType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ComputeType",
+                    "printedName": "SubrosaKit.SBRConfidential.ComputeType",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC11ComputeTypeO"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC11computeTypeAC07ComputeH0Ovp",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC11computeTypeAC07ComputeH0Ovp",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "Final",
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ComputeType",
+                        "printedName": "SubrosaKit.SBRConfidential.ComputeType",
+                        "usr": "s:10SubrosaKit15SBRConfidentialC11ComputeTypeO"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC11computeTypeAC07ComputeH0Ovg",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC11computeTypeAC07ComputeH0Ovg",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ComputeType",
+                        "printedName": "SubrosaKit.SBRConfidential.ComputeType",
+                        "usr": "s:10SubrosaKit15SBRConfidentialC11ComputeTypeO"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC11computeTypeAC07ComputeH0Ovs",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC11computeTypeAC07ComputeH0Ovs",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC11computeTypeAC07ComputeH0OvM",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC11computeTypeAC07ComputeH0OvM",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "declAttributes": [
+                      "Final"
+                    ],
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(data:key:computeType:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DecryptionPropertySet",
+                    "printedName": "SubrosaKit.SBRConfidential.DecryptionPropertySet",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "hasDefaultArg": true,
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ComputeType",
+                    "printedName": "SubrosaKit.SBRConfidential.ComputeType",
+                    "hasDefaultArg": true,
+                    "usr": "s:10SubrosaKit15SBRConfidentialC11ComputeTypeO"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC4data3key11computeTypeAE10Foundation4DataV_AKSgAC07ComputeJ0Otcfc",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC4data3key11computeTypeAE10Foundation4DataV_AKSgAC07ComputeJ0Otcfc",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DecryptionPropertySet",
+                    "printedName": "SubrosaKit.SBRConfidential.DecryptionPropertySet",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:10SubrosaKit15SBRConfidentialC21DecryptionPropertySetCAEycfc",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC21DecryptionPropertySetCAEycfc",
+                "moduleName": "SubrosaKit",
+                "overriding": true,
+                "implicit": true,
+                "objc_name": "init",
+                "declAttributes": [
+                  "Dynamic",
+                  "ObjC",
+                  "Override"
+                ],
+                "init_kind": "Designated"
+              }
+            ],
+            "declKind": "Class",
+            "usr": "s:10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC",
+            "mangledName": "$s10SubrosaKit15SBRConfidentialC21DecryptionPropertySetC",
+            "moduleName": "SubrosaKit",
+            "declAttributes": [
+              "AccessControl",
+              "Final",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "isFromExtension": true,
+            "superclassUsr": "c:objc(cs)NSObject",
+            "superclassNames": [
+              "ObjectiveC.NSObject"
+            ],
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CVarArg",
+                "printedName": "CVarArg",
+                "usr": "s:s7CVarArgP",
+                "mangledName": "$ss7CVarArgP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObservingPublishing",
+                "printedName": "_KeyValueCodingAndObservingPublishing",
+                "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+                "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "_KeyValueCodingAndObserving",
+                "printedName": "_KeyValueCodingAndObserving",
+                "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+                "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomStringConvertible",
+                "printedName": "CustomStringConvertible",
+                "usr": "s:s23CustomStringConvertibleP",
+                "mangledName": "$ss23CustomStringConvertibleP"
+              },
+              {
+                "kind": "Conformance",
+                "name": "CustomDebugStringConvertible",
+                "printedName": "CustomDebugStringConvertible",
+                "usr": "s:s28CustomDebugStringConvertibleP",
+                "mangledName": "$ss28CustomDebugStringConvertibleP"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "ComputeType",
+            "printedName": "ComputeType",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "automatic",
+                "printedName": "automatic",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SubrosaKit.SBRConfidential.ComputeType.Type) -> SubrosaKit.SBRConfidential.ComputeType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ComputeType",
+                        "printedName": "SubrosaKit.SBRConfidential.ComputeType",
+                        "usr": "s:10SubrosaKit15SBRConfidentialC11ComputeTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SubrosaKit.SBRConfidential.ComputeType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ComputeType",
+                            "printedName": "SubrosaKit.SBRConfidential.ComputeType",
+                            "usr": "s:10SubrosaKit15SBRConfidentialC11ComputeTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10SubrosaKit15SBRConfidentialC11ComputeTypeO9automaticyA2EmF",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC11ComputeTypeO9automaticyA2EmF",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "cpu",
+                "printedName": "cpu",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SubrosaKit.SBRConfidential.ComputeType.Type) -> SubrosaKit.SBRConfidential.ComputeType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ComputeType",
+                        "printedName": "SubrosaKit.SBRConfidential.ComputeType",
+                        "usr": "s:10SubrosaKit15SBRConfidentialC11ComputeTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SubrosaKit.SBRConfidential.ComputeType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ComputeType",
+                            "printedName": "SubrosaKit.SBRConfidential.ComputeType",
+                            "usr": "s:10SubrosaKit15SBRConfidentialC11ComputeTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10SubrosaKit15SBRConfidentialC11ComputeTypeO3cpuyA2EmF",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC11ComputeTypeO3cpuyA2EmF",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "gpu",
+                "printedName": "gpu",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(SubrosaKit.SBRConfidential.ComputeType.Type) -> SubrosaKit.SBRConfidential.ComputeType",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ComputeType",
+                        "printedName": "SubrosaKit.SBRConfidential.ComputeType",
+                        "usr": "s:10SubrosaKit15SBRConfidentialC11ComputeTypeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "SubrosaKit.SBRConfidential.ComputeType.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ComputeType",
+                            "printedName": "SubrosaKit.SBRConfidential.ComputeType",
+                            "usr": "s:10SubrosaKit15SBRConfidentialC11ComputeTypeO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:10SubrosaKit15SBRConfidentialC11ComputeTypeO3gpuyA2EmF",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC11ComputeTypeO3gpuyA2EmF",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "RawDocComment"
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "==",
+                "printedName": "==(_:_:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ComputeType",
+                    "printedName": "SubrosaKit.SBRConfidential.ComputeType",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC11ComputeTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ComputeType",
+                    "printedName": "SubrosaKit.SBRConfidential.ComputeType",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC11ComputeTypeO"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10SubrosaKit15SBRConfidentialC11ComputeTypeO2eeoiySbAE_AEtFZ",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC11ComputeTypeO2eeoiySbAE_AEtFZ",
+                "moduleName": "SubrosaKit",
+                "static": true,
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              },
+              {
+                "kind": "Var",
+                "name": "hashValue",
+                "printedName": "hashValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10SubrosaKit15SBRConfidentialC11ComputeTypeO9hashValueSivp",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC11ComputeTypeO9hashValueSivp",
+                "moduleName": "SubrosaKit",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit15SBRConfidentialC11ComputeTypeO9hashValueSivg",
+                    "mangledName": "$s10SubrosaKit15SBRConfidentialC11ComputeTypeO9hashValueSivg",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              },
+              {
+                "kind": "Function",
+                "name": "hash",
+                "printedName": "hash(into:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Hasher",
+                    "printedName": "Swift.Hasher",
+                    "paramValueOwnership": "InOut",
+                    "usr": "s:s6HasherV"
+                  }
+                ],
+                "declKind": "Func",
+                "usr": "s:10SubrosaKit15SBRConfidentialC11ComputeTypeO4hash4intoys6HasherVz_tF",
+                "mangledName": "$s10SubrosaKit15SBRConfidentialC11ComputeTypeO4hash4intoys6HasherVz_tF",
+                "moduleName": "SubrosaKit",
+                "implicit": true,
+                "funcSelfKind": "NonMutating"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:10SubrosaKit15SBRConfidentialC11ComputeTypeO",
+            "mangledName": "$s10SubrosaKit15SBRConfidentialC11ComputeTypeO",
+            "moduleName": "SubrosaKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10SubrosaKit15SBRConfidentialC",
+        "mangledName": "$s10SubrosaKit15SBRConfidentialC",
+        "moduleName": "SubrosaKit",
+        "intro_Macosx": "13.0",
+        "intro_iOS": "16.0",
+        "declAttributes": [
+          "AccessControl",
+          "Final",
+          "Available",
+          "Available",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SBRKitSpecificationable",
+        "printedName": "SBRKitSpecificationable",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SBRKitSpecificationable",
+                "printedName": "SubrosaKit.SBRKitSpecificationable",
+                "usr": "s:10SubrosaKit23SBRKitSpecificationableP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SubrosaKit23SBRKitSpecificationableP4infoAaB_pvpZ",
+            "mangledName": "$s10SubrosaKit23SBRKitSpecificationableP4infoAaB_pvpZ",
+            "moduleName": "SubrosaKit",
+            "static": true,
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SBRKitSpecificationable",
+                    "printedName": "SubrosaKit.SBRKitSpecificationable",
+                    "usr": "s:10SubrosaKit23SBRKitSpecificationableP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SubrosaKit23SBRKitSpecificationableP4infoAaB_pvgZ",
+                "mangledName": "$s10SubrosaKit23SBRKitSpecificationableP4infoAaB_pvgZ",
+                "moduleName": "SubrosaKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : SubrosaKit.SBRKitSpecificationable>",
+                "sugared_genericSig": "<Self where Self : SubrosaKit.SBRKitSpecificationable>",
+                "static": true,
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SDKVersion",
+                "printedName": "SubrosaKit.SBRKit.SDKVersion",
+                "usr": "s:10SubrosaKit6SBRKitC10SDKVersionV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SubrosaKit23SBRKitSpecificationableP7versionAA0C0C10SDKVersionVvp",
+            "mangledName": "$s10SubrosaKit23SBRKitSpecificationableP7versionAA0C0C10SDKVersionVvp",
+            "moduleName": "SubrosaKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKVersion",
+                    "printedName": "SubrosaKit.SBRKit.SDKVersion",
+                    "usr": "s:10SubrosaKit6SBRKitC10SDKVersionV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SubrosaKit23SBRKitSpecificationableP7versionAA0C0C10SDKVersionVvg",
+                "mangledName": "$s10SubrosaKit23SBRKitSpecificationableP7versionAA0C0C10SDKVersionVvg",
+                "moduleName": "SubrosaKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : SubrosaKit.SBRKitSpecificationable>",
+                "sugared_genericSig": "<Self where Self : SubrosaKit.SBRKitSpecificationable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "build",
+            "printedName": "build",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SubrosaKit23SBRKitSpecificationableP5builds6UInt16Vvp",
+            "mangledName": "$s10SubrosaKit23SBRKitSpecificationableP5builds6UInt16Vvp",
+            "moduleName": "SubrosaKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt16",
+                    "printedName": "Swift.UInt16",
+                    "usr": "s:s6UInt16V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SubrosaKit23SBRKitSpecificationableP5builds6UInt16Vvg",
+                "mangledName": "$s10SubrosaKit23SBRKitSpecificationableP5builds6UInt16Vvg",
+                "moduleName": "SubrosaKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : SubrosaKit.SBRKitSpecificationable>",
+                "sugared_genericSig": "<Self where Self : SubrosaKit.SBRKitSpecificationable>",
+                "protocolReq": true,
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10SubrosaKit23SBRKitSpecificationableP",
+        "mangledName": "$s10SubrosaKit23SBRKitSpecificationableP",
+        "moduleName": "SubrosaKit",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "intro_Macosx": "13.0",
+        "intro_iOS": "16.0",
+        "declAttributes": [
+          "AccessControl",
+          "Available",
+          "Available",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SBRKit",
+        "printedName": "SBRKit",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "info",
+            "printedName": "info",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SBRKitSpecificationable",
+                "printedName": "SubrosaKit.SBRKitSpecificationable",
+                "usr": "s:10SubrosaKit23SBRKitSpecificationableP"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SubrosaKit6SBRKitC4infoAA0C17Specificationable_pvpZ",
+            "mangledName": "$s10SubrosaKit6SBRKitC4infoAA0C17Specificationable_pvpZ",
+            "moduleName": "SubrosaKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SBRKitSpecificationable",
+                    "printedName": "SubrosaKit.SBRKitSpecificationable",
+                    "usr": "s:10SubrosaKit23SBRKitSpecificationableP"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SubrosaKit6SBRKitC4infoAA0C17Specificationable_pvgZ",
+                "mangledName": "$s10SubrosaKit6SBRKitC4infoAA0C17Specificationable_pvgZ",
+                "moduleName": "SubrosaKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "version",
+            "printedName": "version",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SDKVersion",
+                "printedName": "SubrosaKit.SBRKit.SDKVersion",
+                "usr": "s:10SubrosaKit6SBRKitC10SDKVersionV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SubrosaKit6SBRKitC7versionAC10SDKVersionVvp",
+            "mangledName": "$s10SubrosaKit6SBRKitC7versionAC10SDKVersionVvp",
+            "moduleName": "SubrosaKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SDKVersion",
+                    "printedName": "SubrosaKit.SBRKit.SDKVersion",
+                    "usr": "s:10SubrosaKit6SBRKitC10SDKVersionV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SubrosaKit6SBRKitC7versionAC10SDKVersionVvg",
+                "mangledName": "$s10SubrosaKit6SBRKitC7versionAC10SDKVersionVvg",
+                "moduleName": "SubrosaKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "build",
+            "printedName": "build",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt16",
+                "printedName": "Swift.UInt16",
+                "usr": "s:s6UInt16V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10SubrosaKit6SBRKitC5builds6UInt16Vvp",
+            "mangledName": "$s10SubrosaKit6SBRKitC5builds6UInt16Vvp",
+            "moduleName": "SubrosaKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt16",
+                    "printedName": "Swift.UInt16",
+                    "usr": "s:s6UInt16V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10SubrosaKit6SBRKitC5builds6UInt16Vvg",
+                "mangledName": "$s10SubrosaKit6SBRKitC5builds6UInt16Vvg",
+                "moduleName": "SubrosaKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "SDKVersion",
+            "printedName": "SDKVersion",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "major",
+                "printedName": "major",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt16",
+                    "printedName": "Swift.UInt16",
+                    "usr": "s:s6UInt16V"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10SubrosaKit6SBRKitC10SDKVersionV5majors6UInt16Vvp",
+                "mangledName": "$s10SubrosaKit6SBRKitC10SDKVersionV5majors6UInt16Vvp",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt16",
+                        "printedName": "Swift.UInt16",
+                        "usr": "s:s6UInt16V"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit6SBRKitC10SDKVersionV5majors6UInt16Vvg",
+                    "mangledName": "$s10SubrosaKit6SBRKitC10SDKVersionV5majors6UInt16Vvg",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt16",
+                        "printedName": "Swift.UInt16",
+                        "usr": "s:s6UInt16V"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit6SBRKitC10SDKVersionV5majors6UInt16Vvs",
+                    "mangledName": "$s10SubrosaKit6SBRKitC10SDKVersionV5majors6UInt16Vvs",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit6SBRKitC10SDKVersionV5majors6UInt16VvM",
+                    "mangledName": "$s10SubrosaKit6SBRKitC10SDKVersionV5majors6UInt16VvM",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "minor",
+                "printedName": "minor",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt16",
+                    "printedName": "Swift.UInt16",
+                    "usr": "s:s6UInt16V"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10SubrosaKit6SBRKitC10SDKVersionV5minors6UInt16Vvp",
+                "mangledName": "$s10SubrosaKit6SBRKitC10SDKVersionV5minors6UInt16Vvp",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt16",
+                        "printedName": "Swift.UInt16",
+                        "usr": "s:s6UInt16V"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit6SBRKitC10SDKVersionV5minors6UInt16Vvg",
+                    "mangledName": "$s10SubrosaKit6SBRKitC10SDKVersionV5minors6UInt16Vvg",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt16",
+                        "printedName": "Swift.UInt16",
+                        "usr": "s:s6UInt16V"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit6SBRKitC10SDKVersionV5minors6UInt16Vvs",
+                    "mangledName": "$s10SubrosaKit6SBRKitC10SDKVersionV5minors6UInt16Vvs",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit6SBRKitC10SDKVersionV5minors6UInt16VvM",
+                    "mangledName": "$s10SubrosaKit6SBRKitC10SDKVersionV5minors6UInt16VvM",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              },
+              {
+                "kind": "Var",
+                "name": "patch",
+                "printedName": "patch",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt16",
+                    "printedName": "Swift.UInt16",
+                    "usr": "s:s6UInt16V"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:10SubrosaKit6SBRKitC10SDKVersionV5patchs6UInt16Vvp",
+                "mangledName": "$s10SubrosaKit6SBRKitC10SDKVersionV5patchs6UInt16Vvp",
+                "moduleName": "SubrosaKit",
+                "declAttributes": [
+                  "HasStorage",
+                  "AccessControl",
+                  "RawDocComment"
+                ],
+                "hasStorage": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt16",
+                        "printedName": "Swift.UInt16",
+                        "usr": "s:s6UInt16V"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit6SBRKitC10SDKVersionV5patchs6UInt16Vvg",
+                    "mangledName": "$s10SubrosaKit6SBRKitC10SDKVersionV5patchs6UInt16Vvg",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Set",
+                    "printedName": "Set()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UInt16",
+                        "printedName": "Swift.UInt16",
+                        "usr": "s:s6UInt16V"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit6SBRKitC10SDKVersionV5patchs6UInt16Vvs",
+                    "mangledName": "$s10SubrosaKit6SBRKitC10SDKVersionV5patchs6UInt16Vvs",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "accessorKind": "set"
+                  },
+                  {
+                    "kind": "Accessor",
+                    "name": "Modify",
+                    "printedName": "Modify()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:10SubrosaKit6SBRKitC10SDKVersionV5patchs6UInt16VvM",
+                    "mangledName": "$s10SubrosaKit6SBRKitC10SDKVersionV5patchs6UInt16VvM",
+                    "moduleName": "SubrosaKit",
+                    "implicit": true,
+                    "accessorKind": "_modify"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Struct",
+            "usr": "s:10SubrosaKit6SBRKitC10SDKVersionV",
+            "mangledName": "$s10SubrosaKit6SBRKitC10SDKVersionV",
+            "moduleName": "SubrosaKit",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10SubrosaKit6SBRKitC",
+        "mangledName": "$s10SubrosaKit6SBRKitC",
+        "moduleName": "SubrosaKit",
+        "intro_iOS": "13.0",
+        "declAttributes": [
+          "AccessControl",
+          "Final",
+          "Available",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "SBRKitSpecificationable",
+            "printedName": "SBRKitSpecificationable",
+            "usr": "s:10SubrosaKit23SBRKitSpecificationableP",
+            "mangledName": "$s10SubrosaKit23SBRKitSpecificationableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CryptoKit",
+        "printedName": "CryptoKit",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "SubrosaKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/d1mk4\/Desktop\/New\/SubrosaKit Sources\/SubrosaKit\/SubrosaKit\/Software\/Confidential\/SBRConfidential.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14045,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/d1mk4\/Desktop\/New\/SubrosaKit Sources\/SubrosaKit\/SubrosaKit\/Software\/Confidential\/SBRConfidential.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15279,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/d1mk4\/Desktop\/New\/SubrosaKit Sources\/SubrosaKit\/SubrosaKit\/Software\/Encryption Algorithms\/Symmetric\/AES\/SBR_AES.swift",
+      "kind": "StringLiteral",
+      "offset": 456,
+      "length": 18,
+      "value": "\"com.ddec.subrosa\""
+    },
+    {
+      "filePath": "\/Users\/d1mk4\/Desktop\/New\/SubrosaKit Sources\/SubrosaKit\/SubrosaKit\/Software\/Encryption Algorithms\/Symmetric\/AES\/SBR_AES.swift",
+      "kind": "StringLiteral",
+      "offset": 610,
+      "length": 26,
+      "value": "\"$#@%com.ddec.subrosa%@#$\""
+    },
+    {
+      "filePath": "\/Users\/d1mk4\/Desktop\/New\/SubrosaKit Sources\/SubrosaKit\/SubrosaKit\/Software\/Encryption Algorithms\/Symmetric\/AES\/SBR_AES.swift",
+      "kind": "StringLiteral",
+      "offset": 772,
+      "length": 34,
+      "value": "\"$#@%com@&._*ddec*_.&@subrosa%@#$\""
+    },
+    {
+      "filePath": "\/Users\/d1mk4\/Desktop\/New\/SubrosaKit Sources\/SubrosaKit\/SubrosaKit\/Software\/Confidential\/Extensions\/Classes\/KeyPair.swift",
+      "kind": "StringLiteral",
+      "offset": 387,
+      "length": 7,
+      "value": "\"SubrosaKit.KeyPair\""
+    },
+    {
+      "filePath": "\/Users\/d1mk4\/Desktop\/New\/SubrosaKit Sources\/SubrosaKit\/SubrosaKit\/Developer Tools\/Project Specifications\/SDK Specification\/SBRKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 841,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/d1mk4\/Desktop\/New\/SubrosaKit Sources\/SubrosaKit\/SubrosaKit\/Developer Tools\/Project Specifications\/SDK Specification\/SBRKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 863,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/d1mk4\/Desktop\/New\/SubrosaKit Sources\/SubrosaKit\/SubrosaKit\/Developer Tools\/Project Specifications\/SDK Specification\/SBRKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 885,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/d1mk4\/Desktop\/New\/SubrosaKit Sources\/SubrosaKit\/SubrosaKit\/Developer Tools\/Project Specifications\/SDK Specification\/SBRKit.swift",
+      "kind": "StringLiteral",
+      "offset": 956,
+      "length": 21,
+      "value": "\"com.ddec.subrosakit\""
+    },
+    {
+      "filePath": "\/Users\/d1mk4\/Desktop\/New\/SubrosaKit Sources\/SubrosaKit\/SubrosaKit\/Developer Tools\/Project Specifications\/SDK Specification\/SBRKit.swift",
+      "kind": "StringLiteral",
+      "offset": 1013,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/d1mk4\/Desktop\/New\/SubrosaKit Sources\/SubrosaKit\/SubrosaKit\/Developer Tools\/Project Specifications\/SDK Specification\/SBRKit.swift",
+      "kind": "Array",
+      "offset": 1163,
+      "length": 5,
+      "value": "[\".\"]"
+    },
+    {
+      "filePath": "\/Users\/d1mk4\/Desktop\/New\/SubrosaKit Sources\/SubrosaKit\/SubrosaKit\/Developer Tools\/Project Specifications\/SDK Specification\/SBRKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1218,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/d1mk4\/Desktop\/New\/SubrosaKit Sources\/SubrosaKit\/SubrosaKit\/Developer Tools\/Project Specifications\/SDK Specification\/SBRKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1269,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/d1mk4\/Desktop\/New\/SubrosaKit Sources\/SubrosaKit\/SubrosaKit\/Developer Tools\/Project Specifications\/SDK Specification\/SBRKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1365,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/d1mk4\/Desktop\/New\/SubrosaKit Sources\/SubrosaKit\/SubrosaKit\/Developer Tools\/Project Specifications\/SDK Specification\/SBRKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1416,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/d1mk4\/Desktop\/New\/SubrosaKit Sources\/SubrosaKit\/SubrosaKit\/Developer Tools\/Project Specifications\/SDK Specification\/SBRKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1512,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/d1mk4\/Desktop\/New\/SubrosaKit Sources\/SubrosaKit\/SubrosaKit\/Developer Tools\/Project Specifications\/SDK Specification\/SBRKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1563,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/d1mk4\/Desktop\/New\/SubrosaKit Sources\/SubrosaKit\/SubrosaKit\/Developer Tools\/Project Specifications\/SDK Specification\/SBRKit.swift",
+      "kind": "StringLiteral",
+      "offset": 1907,
+      "length": 21,
+      "value": "\"com.ddec.subrosakit\""
+    },
+    {
+      "filePath": "\/Users\/d1mk4\/Desktop\/New\/SubrosaKit Sources\/SubrosaKit\/SubrosaKit\/Developer Tools\/Project Specifications\/SDK Specification\/SBRKit.swift",
+      "kind": "StringLiteral",
+      "offset": 1964,
+      "length": 17,
+      "value": "\"CFBundleVersion\""
+    },
+    {
+      "filePath": "\/Users\/d1mk4\/Desktop\/New\/SubrosaKit Sources\/SubrosaKit\/SubrosaKit\/Developer Tools\/Project Specifications\/SDK Specification\/SBRKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2028,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/d1mk4\/Desktop\/New\/SubrosaKit Sources\/SubrosaKit\/SubrosaKit\/Developer Tools\/Project Specifications\/SDK Specification\/SBRKit.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2128,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/d1mk4\/Desktop\/New\/SubrosaKit Sources\/SubrosaKit\/SubrosaKit\/Software\/Confidential\/Extensions\/Classes\/EncryptionPropertySet.swift",
+      "kind": "StringLiteral",
+      "offset": 429,
+      "length": 21,
+      "value": "\"SubrosaKit.EncryptionPropertySet\""
+    },
+    {
+      "filePath": "\/Users\/d1mk4\/Desktop\/New\/SubrosaKit Sources\/SubrosaKit\/SubrosaKit\/Software\/Confidential\/Extensions\/Classes\/SharedSecret.swift",
+      "kind": "StringLiteral",
+      "offset": 470,
+      "length": 12,
+      "value": "\"SubrosaKit.SharedSecret\""
+    },
+    {
+      "filePath": "\/Users\/d1mk4\/Desktop\/New\/SubrosaKit Sources\/SubrosaKit\/SubrosaKit\/Software\/Confidential\/Extensions\/Classes\/DecryptionPropertySet.swift",
+      "kind": "StringLiteral",
+      "offset": 429,
+      "length": 21,
+      "value": "\"SubrosaKit.DecryptionPropertySet\""
+    }
+  ]
+}
