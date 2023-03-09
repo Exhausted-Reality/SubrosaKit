@@ -43,12 +43,8 @@ The framework is called SubrosaKit and comes through Swift Package Manager calle
 * **Documentation Catalog**
   * [Documentation](#documentation)
 * **Features Set**
-  * [Dev Tools](#dev-tools)
-    * [SDK Specification](#sdk-specification)
+  * [SDK Specification](#sdk-specification)
   * [Encryption Algorithms](#encryption-algorithms)
-    * [Asymmetric](#asymmetric)
-    * [Hashing](#hashing)
-    * [Symmetric](symmetric)
 * **Availability**
   * [Supported devices](#supported-devices)
     * [iPhone](#iphone)
@@ -121,9 +117,7 @@ Xcode documentation in .docarchive format is also supplied together in the frame
 
 ### SubrosaKit Features Set
 
-#### Dev Tools
-
-##### SDK Specification
+#### SDK Specification
 
 To get information about the version and build of the framework, use:
 
@@ -137,11 +131,11 @@ print(sdkBuild)
 
 #### Encryption Algorithms
 
-##### Asymmetric
+The framework includes a set of three main encryption algorithms that may be required when solving everyday problems. Interaction with the framework can be viewed in the SubrosaKit Demo demo project or get more information in the documentation.
 
-##### Hashing
-
-##### Symmetric
+<p align="center"> 
+ <img src="Images/Demo/Algorithms.png">
+</p>
     
 - - -
 
