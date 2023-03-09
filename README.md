@@ -99,7 +99,7 @@ You can also add a framework to the project by uploading the project from the gi
 
 - - -
 
-### SubrosaKit Documentation
+### Documentation Catalog
 
 #### Documentation
 
@@ -115,7 +115,7 @@ Xcode documentation in .docarchive format is also supplied together in the frame
 
 - - -
 
-### SubrosaKit Features Set
+### Features Set
 
 #### SDK Specification
 
@@ -143,16 +143,20 @@ The framework includes a set of three main encryption algorithms that may be req
 
 #### Supported devices
 ###### iPhone
-`iPhone SE (1st generation)`﹒`or above`
+`iPhone 8 | iPhone 8 Plus | iPhone X`﹒`or above`
 ###### iPad
-`iPad mini (4th generation)`﹒`or above`  
+`iPad mini (5th generation)`﹒`or above`  
 `iPad (5th generation)`﹒`or above`  
-`iPad Air (2nd generation)`﹒`or above`  
+`iPad Air (3rd generation)`﹒`or above`  
 `iPad Pro 9.7-inch`  
 `iPad Pro 10.5-inch`  
 `iPad Pro 11-inch (1st generation)`﹒`or above`  
 `iPad Pro 12.9-inch (1st generation)`﹒`or above`
-####### Mac
+###### Mac
+`MacBook Pro (13", 2017)`﹒`or above`  
+`MacBook Pro (15", 2017)`﹒`or above`  
+`MacBook Pro (16", 2019)`﹒`or above`  
+`MacBook Pro (14", 2021)`﹒`or above`  
 
 #### Supported OS
 ###### iOS
