@@ -13,3 +13,155 @@
   <img alt="" src="https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white">
  </a>
 </p>
+
+<p align="center">
+ <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Arial+Rounded+MT+Bold&size=30&duration=2000&pause=1000&color=F7104C&center=true&vCenter=true&multiline=true&width=320&lines=Subrosa+Confidential" alt="Typing SVG" />
+ </a>
+</p>
+
+### Current Release:
+**Status:** `Stable`  
+**Version:** `1.0.0`  
+**Build:** `1`
+
+#### SubrosaKit is an [Xcode Fat Framework](#full-description) written in [Swift 5](https://github.com/apple/swift) and designed for sharing with the Reality Fusion FX game engine.
+
+#### `Xcode 14.0+` ﹒ `Swift 5.7+` ﹒ `iOS 16.0+` ﹒ `iPadOS 16.0+` ﹒ `macOS Ventura 13.0+` 
+
+- - -
+
+## Table of Contents
+
+* **About the framework**
+  * [Full description](#full-description)
+  * [Used technologies](#used-technologies)
+* **How to add a dependency?**
+  * [Swift Package Manager](#swift-package-manager)
+  * [Another way](#another-way)
+* **SubrosaKit Documentation**
+  * [Documentation](#documentation)
+* **SubrosaKit Features Set**
+  * [Dev Tools](#dev-tools)
+    * [SDK Specification](#sdk-specification)
+  * [Encryption Algorithms](#encryption-algorithms)
+    * [Asymmetric](#asymmetric)
+    * [Hashing](#hashing)
+    * [Symmetric](symmetric)
+* **Availability**
+  * [Supported devices](#supported-devices)
+    * [iPhone](#iphone)
+    * [iPad](#ipad)
+    * [Mac](#mac)
+  * [Supported OS](#supported-os)
+    * [iOS](#ios)
+    * [iPadOS](#ipados)
+    * [macOS](#macos)
+* **Other**
+  * [Project e-mail](#project-e-mail)
+* **License**
+  * [SubrosaKit license](#subrosakit-license)
+
+- - -
+
+### About the framework
+
+#### Full description
+
+###### `Xcode Fat Framework`
+
+**Name:** `SubrosaKit`  
+
+**Environment:**  `Xcode IDE | Xcode CLT`  
+
+**Target Platform:**  `🍏 Platforms`  
+
+**Binary format:** `The framework comes as a binary file, which simplifies the assembly of projects in which it is used, as well as provides support for the necessary set of architectures, both for real devices and for simulators for the Apple and Intel platform`  
+
+**What is it created for?** `The framework is designed to solve everyday tasks that any iOS developer faces when developing a new project. The framework provides a set of features that simplify and accelerate the development of new products based on it`
+
+#### Used technologies
+
+`Foundation | Metal API | New Swift Concurrency` 
+
+- - -
+
+### How to add a dependency?
+
+###### *The patch version varies depending on the releases with bug fixes and errors.*
+
+The framework follows [Semantic Versioning](https://semver.org).
+
+#### Swift Package Manager
+
+You can install the framework using SPM by simply specifying a stable version of the release at the time of download.
+
+#### Another way
+
+You can also add a framework to the project by uploading the project from the github, transferring SubrosaKit.xcframework to the sidebar of the Xcode project.
+
+- - -
+
+### SubrosaKit Features Set
+
+#### Dev Tools
+
+##### SDK Specification
+
+To get information about the version and build of the framework, use:
+
+```swift
+let sdkVersion = SBRKit.info.version
+print(sdkVersion)
+
+let sdkBuild = SBRKit.info.build
+print(sdkBuild)
+```
+
+#### Encryption Algorithms
+
+##### Asymmetric
+
+##### Hashing
+
+##### Symmetric
+
+    
+- - -
+
+### Availability
+
+#### Supported devices
+###### iPhone
+`iPhone SE (1st generation)`﹒`or above`
+###### iPad
+`iPad mini (4th generation)`﹒`or above`  
+`iPad (5th generation)`﹒`or above`  
+`iPad Air (2nd generation)`﹒`or above`  
+`iPad Pro 9.7-inch`  
+`iPad Pro 10.5-inch`  
+`iPad Pro 11-inch (1st generation)`﹒`or above`  
+`iPad Pro 12.9-inch (1st generation)`﹒`or above`
+####### Mac
+
+#### Supported OS
+###### iOS
+`iOS 16.0`﹒`and higher`
+###### iPadOS
+`iPadOS 16.0`﹒`and higher`
+###### macOS
+`macOS Ventura 13.0`﹒`and higher`
+
+- - -
+
+### Other
+
+#### Project e-mail
+[ddec.team@gmail.com](mailto:ddec.team@gmail.com)
+
+- - -
+
+### License
+
+#### SubrosaKit license
+
+##### `⚠️: SubrosaKit ﹒ Exhausted Reality. 2023. All Rights Reserved.`
