@@ -40,9 +40,9 @@ The framework is called SubrosaKit and comes through Swift Package Manager calle
 * **How to add a dependency?**
   * [Swift Package Manager](#swift-package-manager)
   * [Another way](#another-way)
-* **SubrosaKit Documentation**
+* **Documentation Catalog**
   * [Documentation](#documentation)
-* **SubrosaKit Features Set**
+* **Features Set**
   * [Dev Tools](#dev-tools)
     * [SDK Specification](#sdk-specification)
   * [Encryption Algorithms](#encryption-algorithms)
