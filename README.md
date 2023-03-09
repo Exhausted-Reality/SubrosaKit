@@ -25,7 +25,7 @@
 **Build:** `1`
 
 #### SubrosaKit is an [Xcode Fat Framework](#full-description) written in [Swift 5](https://github.com/apple/swift) and designed for sharing with the Reality Fusion FX game engine.
-The cryptographic framework can perform calculations on both CPU and GPU.
+The cryptographic framework can perform calculations on both CPU and GPU.  
 The framework is called SubrosaKit and comes through Swift Package Manager called Subrosa Confidential.
 
 #### `Xcode 14.0+` ﹒ `Swift 5.7+` ﹒ `iOS 16.0+` ﹒ `iPadOS 16.0+` ﹒ `macOS Ventura 13.0+` 
@@ -110,7 +110,11 @@ You can also add a framework to the project by uploading the project from the gi
 Xcode documentation in .docarchive format is also supplied together in the framework.
 
 <p align="center"> 
- <img src="Images/Tests/PassingTests.png">
+ <img src="Images/Documentation/Summary.png">
+</p>
+
+<p align="center"> 
+ <img src="Images/Documentation/Catalog.png">
 </p>
 
 - - -
