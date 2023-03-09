@@ -110,7 +110,11 @@ You can also add a framework to the project by uploading the project from the gi
 Xcode documentation in .docarchive format is also supplied together in the framework.
 
 <p align="center"> 
- <img src="Images/Tests/PassingTests.png">
+ <img src="Images/Documentation/Summary.png">
+</p>
+
+<p align="center"> 
+ <img src="Images/Documentation/Catalog.png">
 </p>
 
 - - -
