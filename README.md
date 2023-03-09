@@ -107,6 +107,12 @@ You can also add a framework to the project by uploading the project from the gi
 
 #### Documentation
 
+Xcode documentation in .docarchive format is also supplied together in the framework.
+
+<p align="center"> 
+ <img src="Images/Tests/PassingTests.png">
+</p>
+
 - - -
 
 ### SubrosaKit Features Set
